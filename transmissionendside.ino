@@ -3,7 +3,7 @@ void setup() {
   // put your setup code here, to run once:
   pinMode (LASERPIN, OUTPUT) ;
   int si=130;  
-  char myText[si] = " START TX: This is the Pc to Pc text transferring using LI-FI project done by Praveen Kumar J, Karthikeyan S :RX END ";
+  char myText[si] = " START TX: This is the Pc to Pc text transferring using LI-FI project done by Praveen Kumar J :RX END ";
   int length = sizeof(myText);
   int ar[200];
   int m;
